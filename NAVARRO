@@ -1,0 +1,40 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        string studentID; 
+        string fullName;
+        string nickName;
+        string gender;
+        int yearLevel;
+        string homeLocation;
+        string course;
+        string mobileNo;
+        string personalEmail;
+
+        studentID = "24984437";
+        fullName = "Juper Navarro";
+        nickName = "Ope";
+        gender = "Male";
+        yearLevel = 2;
+        homeLocation = "Lahug, Cebu City";
+        course = "Information Technology";
+        mobileNo = "09633842609";
+        personalEmail = "babysavy459@gmail.com";
+
+        Console.WriteLine("Demographics Program by [Juper Navarro]");        
+        Console.WriteLine($"Student ID   : {studentID}");
+        Console.WriteLine($"Full Name    : {fullName}");
+        Console.WriteLine($"Nick Name    : {nickName}");
+        Console.WriteLine($"Gender       : {gender}");
+        Console.WriteLine($"Year Level   : {yearLevel}");
+        Console.WriteLine($"Home Location: {homeLocation}");
+        Console.WriteLine($"Course       : {course}");
+        Console.WriteLine($"Mobile No.   : {mobileNo}");
+        Console.WriteLine($"Personal Email: {personalEmail}");
+
+        Console.ReadKey();
+    }
+}
